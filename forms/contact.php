@@ -2,7 +2,7 @@
             require_once "Mail.php";
 
             $host = "smtp.gmail.com";
-            $username = "shekhar_katagi@3sitconsultingservices.com";
+            $username = "info@3sitconsultingservices.com";
             $password = "Ganesh_2021";
             $port = "587";
             $to = "info@3sitconsultingservices.com";
