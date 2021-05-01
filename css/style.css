@@ -305,7 +305,7 @@ div#name {
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: green;
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
