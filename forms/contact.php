@@ -5,9 +5,9 @@
             $username = "shekhar_katagi@3sitconsultingservices.com";
             $password = "Ganesh_2021";
             $port = "587";
-            $to = "sam@samdevelopers.co.in";
+            $to = "info@3sitconsultingservices.com";
 
-            $email_from = "shekhar_katagi@3sitconsultingservices.com";
+            $email_from = $_POST['email'];
             $email_subject = $_POST['subject'] ;
             $email_body = $_POST['message'] ;
             $email_address = $_POST['email'];
@@ -17,7 +17,7 @@
             $headers = array ('From' => $email_from,
                             'To' => $to,
                             'Subject' => $email_subject,
-                            'Reply-To' => $email_address,
+                            'Reply-To' => $email_from,
                             'MIME-Version' => $mime,
                             'Content-type' => $content);
 
