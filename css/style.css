@@ -305,8 +305,8 @@ div#name {
 
 .contact .php-email-form .error-message {
   display: none;
-  color: green;
-  background: #ed3c0d;
+  color: #fff;
+  background: green;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -319,7 +319,7 @@ div#name {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: green;
+  background: #18d26e;
   text-align: center;
   padding: 15px;
   font-weight: 600;
